@@ -1,13 +1,14 @@
 package com.acmud.taller1;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.acmud.taller1.ExperimentService;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 @Configuration 
 public class ApplicationConfig {
     @Bean("baseBean")
-    public BaseBean baseBean(){
+    public ExperimentService baseBean(){
         System.out.println("creandoBean");
-        return new BaseBean();
+        return new ExperimentService();
     }
 }
