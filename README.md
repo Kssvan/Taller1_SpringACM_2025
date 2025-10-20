@@ -37,7 +37,7 @@ Cada usuario tiene su propio carrito.
 
 ---
 
-### 🧾 Conclusión
+###  Conclusión
 
 El alcance (*scope*) de un bean determina su ciclo de vida y número de instancias en la aplicación.  
 Los beans *singleton* se crean una sola vez por contexto, mientras que los *prototype* generan una nueva instancia cada vez que se solicitan.  
